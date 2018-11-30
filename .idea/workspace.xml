@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f8ddd8f-7900-444e-9528-6e3e053014f5" name="Default Changelist" comment="" />
+    <list default="true" id="5f8ddd8f-7900-444e-9528-6e3e053014f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fantasy/player/healer/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasy/player/healer/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fantasy/player/healer/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasy/player/healer/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Spellcaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Spellcaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Witch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Witch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Wizard.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -54,22 +64,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1322" />
+          <entry key="java" value="1347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1322" />
+          <entry key="JAVA" value="1347" />
         </counts>
       </usages-collector>
     </session>
@@ -77,10 +87,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Fighter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Barbarian.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="75">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Dwarf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Knight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/healer/Cleric.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Spellcaster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-23">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,103 +143,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/Player.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Creature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Witch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Wizard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/Equipment.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/room/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WizardTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/healer/Healer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
-              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+            <state relative-caret-position="97">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1626#1627#0" expanded="true" />
-                <element signature="e#1696#1697#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WitchTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1509#1510#0" expanded="true" />
-                <element signature="e#1578#1579#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CreatureTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="43" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/EnemyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/KnightTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -509,22 +517,13 @@
         <option value="$PROJECT_DIR$/src/test/java/EnemyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fantasy/interfaces/IFight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Fighter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Dwarf.java" />
         <option value="$PROJECT_DIR$/src/test/java/DwarfTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Barbarian.java" />
         <option value="$PROJECT_DIR$/src/test/java/BarbarianTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Knight.java" />
         <option value="$PROJECT_DIR$/src/test/java/KnightTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fantasy/interfaces/IHeal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/healer/Cleric.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/healer/Healer.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClericTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fantasy/interfaces/ICastSpell.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Witch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Spellcaster.java" />
         <option value="$PROJECT_DIR$/src/test/java/WitchTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Wizard.java" />
         <option value="$PROJECT_DIR$/src/test/java/WizardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fantasy/room/Enemy.java" />
         <option value="$PROJECT_DIR$/src/main/java/fantasy/room/Treasure.java" />
@@ -532,9 +531,18 @@
         <option value="$PROJECT_DIR$/src/test/java/RoomTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fantasy/Fantasy.java" />
         <option value="$PROJECT_DIR$/src/test/java/FantasyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/fantasy/player/Armour.java" />
         <option value="$PROJECT_DIR$/src/main/java/fantasy/player/Equipment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Barbarian.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Fighter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Dwarf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Knight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/healer/Cleric.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/healer/Healer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Spellcaster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Witch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Wizard.java" />
       </list>
     </option>
   </component>
@@ -611,6 +619,36 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fantasy" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="fighter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FantasyAdventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fantasy_adventure-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fantasy" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="healer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FantasyAdventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fantasy_adventure-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fantasy" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="spellcaster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FantasyAdventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fantasy_adventure-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fantasy" type="462c0819:PsiDirectoryNode" />
               <item name="room" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -634,7 +672,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543585157595" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543585429833" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -844,42 +882,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Creature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/interfaces/IHeal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/healer/Healer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Wizard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -927,24 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Witch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/room/Enemy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/room/Room.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -963,27 +951,6 @@
             <element signature="e#753#754#0" expanded="true" />
             <element signature="e#787#788#0" expanded="true" />
             <element signature="e#823#824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Spellcaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/healer/Cleric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1024,13 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Dwarf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BarbarianTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -1039,17 +999,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1332#1333#0" expanded="true" />
             <element signature="e#1401#1402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Barbarian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1134,26 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Fighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/Armour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1170,6 +1099,119 @@
             <element signature="e#211#212#0" expanded="true" />
             <element signature="e#244#245#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Fighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Barbarian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Dwarf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/fighter/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/healer/Healer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/healer/Cleric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Spellcaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Witch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/player/spellcaster/Wizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasy/room/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
           </folding>
         </state>
       </provider>

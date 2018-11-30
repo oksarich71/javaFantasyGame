@@ -7,13 +7,11 @@ import java.util.ArrayList;
 public abstract class Player {
 
     protected Equipment equipment;
-
     protected int HP;
     protected int strength;
-    protected String equipment;
     protected ArrayList<Treasure> treasure;
 
-    public Player(int HP, int strength, String equipment) {
+    public Player(int HP, int strength, Equipment equipment) {
         this.HP = HP;
         this.strength = strength;
         this.equipment = equipment;
@@ -28,7 +26,7 @@ public abstract class Player {
         return this.strength;
     }
 
-    public String getEquipment(){
+    public Equipment getEquipment(){
         return this.equipment;
     }
 

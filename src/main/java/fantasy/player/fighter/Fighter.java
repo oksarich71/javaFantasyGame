@@ -1,12 +1,13 @@
 package fantasy.player.fighter;
 
 import fantasy.interfaces.IFight;
+import fantasy.player.Equipment;
 import fantasy.player.Player;
 import fantasy.room.Enemy;
 
 public abstract class Fighter extends Player implements IFight {
 
-    public Fighter(int HP, int strength, String equipment) {
+    public Fighter(int HP, int strength, Equipment equipment) {
         super(HP, strength, equipment);
     }
 

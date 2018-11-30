@@ -1,10 +1,11 @@
 package fantasy.player.healer;
 
 import fantasy.interfaces.IHeal;
+import fantasy.player.Equipment;
 import fantasy.player.Player;
 
 public abstract class Healer extends Player implements IHeal {
-    public Healer(int HP, int strength, String equipment){
+    public Healer(int HP, int strength, Equipment equipment){
         super(HP, strength, equipment);
     }
 
