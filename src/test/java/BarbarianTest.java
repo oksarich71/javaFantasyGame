@@ -1,3 +1,4 @@
+import fantasy.player.Equipment;
 import fantasy.player.fighter.Barbarian;
 import fantasy.player.fighter.Dwarf;
 import fantasy.room.Enemy;
@@ -13,10 +14,11 @@ public class BarbarianTest {
     Enemy enemy1;
     Enemy enemy2;
     Enemy enemy3;
+    Equipment equipment;
 
     @Before
     public void before() {
-        barbarian = new Barbarian(100, 50, "club");
+        barbarian = new Barbarian(100, 50, Equipment.CLUB);
         treasure = new Treasure("gold", 100);
         enemy1 = new Enemy("Orc", 20);
         enemy2 = new Enemy("Ogre", 50);
@@ -35,7 +37,7 @@ public class BarbarianTest {
 
     @Test
     public void hasEquipment() {
-        assertEquals("club", barbarian.getEquipment());
+        assertEquals(Equipment.CLUB, barbarian.getEquipment());
     }
 
     @Test

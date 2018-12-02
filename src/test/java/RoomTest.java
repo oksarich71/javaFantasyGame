@@ -1,3 +1,4 @@
+import fantasy.player.Equipment;
 import fantasy.player.Player;
 import fantasy.player.fighter.Dwarf;
 import fantasy.player.healer.Cleric;
@@ -28,9 +29,9 @@ public class RoomTest {
         creature = new Creature("cat", 10);
         enemy1 = new Enemy("Orc", 50);
         enemy2 = new Enemy("Dragon", 100);
-        player1 = new Dwarf(70, 90, "axe");
-        player2 = new Cleric(100, 20, "potion");
-        player3 = new Witch(50, 70, "wand", creature);
+        player1 = new Dwarf(70, 90, Equipment.AXE);
+        player2 = new Cleric(100, 20, Equipment.POTION);
+        player3 = new Witch(50, 70, Equipment.WAND, creature);
 
         room = new Room(treasure);
     }

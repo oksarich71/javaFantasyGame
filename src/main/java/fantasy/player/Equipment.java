@@ -6,7 +6,8 @@ public enum Equipment {
     SWORD(20),
     WAND(8),
     STAFF(11),
-    ARMOR(18);
+    ARMOR(18),
+    CLUB(12);
 
     private final int value;
 

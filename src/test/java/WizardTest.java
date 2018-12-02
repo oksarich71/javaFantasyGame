@@ -1,3 +1,4 @@
+import fantasy.player.Equipment;
 import fantasy.player.spellcaster.Creature;
 import fantasy.player.spellcaster.Witch;
 import fantasy.player.spellcaster.Wizard;
@@ -20,7 +21,7 @@ public class WizardTest {
         @Before
         public void before() {
             creature = new Creature("Raven", 20);
-            wizard = new Wizard(70, 50, "staff", creature);
+            wizard = new Wizard(70, 50, Equipment.STAFF, creature);
             treasure = new Treasure("gold", 100);
             enemy1 = new Enemy("Orc", 20);
             enemy2 = new Enemy("Ogre", 50);
@@ -38,7 +39,7 @@ public class WizardTest {
 
     @Test
     public void hasEquipment() {
-        assertEquals("staff", wizard.getEquipment());
+        assertEquals(Equipment.STAFF, wizard.getEquipment());
     }
 
     @Test

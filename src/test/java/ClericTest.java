@@ -1,3 +1,4 @@
+import fantasy.player.Equipment;
 import fantasy.player.Player;
 import fantasy.player.fighter.Dwarf;
 import fantasy.player.healer.Cleric;
@@ -12,8 +13,8 @@ public class ClericTest {
 
     @Before
     public void before(){
-        cleric = new Cleric(100, 10, "Potion");
-        player = new Dwarf(20, 30, "axe");
+        cleric = new Cleric(100, 10, Equipment.POTION);
+        player = new Dwarf(20, 30, Equipment.AXE);
 
     }
 
@@ -34,12 +35,12 @@ public class ClericTest {
 
     @Test
     public void hasEquipment() {
-        assertEquals("Potion", cleric.getEquipment());
+        assertEquals(Equipment.POTION, cleric.getEquipment());
     }
     @Test
     public void canSetHP(){
         cleric.setHP(15);
-        assertEquals(15, cleric.getHP());
+        assertEquals(Equipment.AXE, cleric.getHP());
     }
 
 }

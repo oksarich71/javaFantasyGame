@@ -1,4 +1,5 @@
 import fantasy.Fantasy;
+import fantasy.player.Equipment;
 import fantasy.player.Player;
 import fantasy.player.fighter.Barbarian;
 import fantasy.player.fighter.Dwarf;
@@ -32,12 +33,12 @@ public class FantasyTest {
         fantasy = new Fantasy();
         treasure = new Treasure("Gem", 150);
         room = new Room(treasure);
-        player = new Dwarf(23, 67, "axe");
-        fighter = new Barbarian(35, 54, "club");
+        player = new Dwarf(23, 67, Equipment.AXE);
+        fighter = new Barbarian(35, 54, Equipment.CLUB);
         creature = new Creature("Cat", 10);
-        spellcaster = new Witch(25, 28, "wand", creature);
+        spellcaster = new Witch(25, 28, Equipment.WAND, creature);
         enemy = new Enemy ("Orc", 30);
-        healer = new Cleric(100, 10, "Potion");
+        healer = new Cleric(100, 10, Equipment.POTION);
         fantasy.createPlayer(player);
         fantasy.createRoom(room);
         fantasy.createRoom(room);
