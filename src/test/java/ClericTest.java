@@ -40,7 +40,12 @@ public class ClericTest {
     @Test
     public void canSetHP(){
         cleric.setHP(15);
-        assertEquals(Equipment.AXE, cleric.getHP());
+        assertEquals(15, cleric.getHP());
+    }
+    @Test
+    public void checkAttackPower(){
+        assertEquals(150, cleric.getAttackPower());
+
     }
 
 }

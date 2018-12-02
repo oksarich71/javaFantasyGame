@@ -41,4 +41,8 @@ public abstract class Player {
     public void setHP(int newHP){
         this.HP = newHP;
     }
+
+    public int getAttackPower(){
+        return this.getStrength() * equipment.getValue();
+    }
 }

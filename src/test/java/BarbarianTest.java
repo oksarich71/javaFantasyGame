@@ -65,6 +65,9 @@ public class BarbarianTest {
         assertEquals("Enemy wins!", barbarian.fight(enemy3));
         assertEquals(10, barbarian.getHP());
     }
-
+    @Test
+    public void checkAttackPower(){
+        assertEquals(600, barbarian.getAttackPower());
+    }
 }
 
